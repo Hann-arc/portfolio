@@ -1,6 +1,6 @@
 import fotoCasual from './casual.jpg'
 import fotoTk from './foto.jpg'
-import fotoCv from './fotoCv.jpg'
+import fotoCv from './FOTOCv.jpg'
 import ChatlnPort from './ChatlnPort1.png'
 import LakoePort from './lakoePort.png'
 import CirclePort from './CirclePort.png'
