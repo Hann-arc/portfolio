@@ -42,7 +42,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-12 md:py-20 min-h-screen flex flex-col items-center justify-center"
+      className="py-12 md:py-20  flex flex-col items-center justify-center"
     >
       <div className="container mx-auto px-6">
         <motion.h1

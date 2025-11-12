@@ -23,7 +23,7 @@ function App() {
       </div>
 
       <div
-        className={`flex flex-col inset-0 z-10 ${
+        className={`flex flex-col inset-0 z-10 w-full overflow-hidden ${
           darkMode ? "text-white" : "text-black"
         } pointer-events-none`}
       >
@@ -31,26 +31,26 @@ function App() {
           <Navbar />
         </div>
 
-        <div className="z-10 h-screen" id="hero">
+        <div className="z-10 h-screen w-full overflow-hidden" id="hero">
           <Hero />
         </div>
 
-        <div className="min-h-screen">
+        <div className="min-h-screen w-full overflow-hidden">
           <About />
         </div>
 
-        <div className="min-h-screen">
+        <div className="min-h-screen w-full overflow-hidden">
           <Projects />
         </div>
 
-        <div className="min-h-screen">
+        <div className="min-h-screen w-full overflow-hidden">
           <Skills />
         </div>
 
-        <div className="min-h-screen">
+        <div className="min-h-screen w-full overflow-hidden">
           <Contact />
         </div>
-        <div className="z-30">
+        <div className="z-30 w-full overflow-hidden">
           <Footer />
         </div>
       </div>
